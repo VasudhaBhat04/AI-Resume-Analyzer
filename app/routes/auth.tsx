@@ -1,4 +1,6 @@
 import {usePuterStore} from "~/lib/puter";
+import  {useEffect} from 'react';
+import  {useLocation, useNavigate} from 'react-router';
 
 export const meta = () => ([
   { title: 'Resumiz | Auth' },
@@ -6,10 +8,16 @@ export const meta = () => ([
 
 ])
 
-import React from 'react';
-
 const Auth = () => {
      const { isLoading, auth } = usePuterStore();
+     const location = useLocation();
+     const next = location.search.split('next=')[1];
+     const navigate = useNavigate();
+
+     useEffect(() => {
+       if(auth.isAuthenticated) navigate(next);
+     }, [auth.isAuthenticated, next])
+
   return (
          <main className="bg-[url('/images/bg-auth.svg')] bg-cover min h-screen flex items-center justify-center ">
             <div className="gradient-border shadow-lg">
@@ -42,7 +50,6 @@ const Auth = () => {
                       </>
                   )}
                 </div>
-
 
               </section>
 
