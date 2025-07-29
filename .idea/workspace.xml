@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4e8365-a7bf-4e8b-b790-b39a93934e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ScoreBadge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ScoreGauge.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ATS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
       <recent name="C:\Users\USER\WebstormProjects\ResumeAnalyzer\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\WebstormProjects\ResumeAnalyzer\app\components" />
       <recent name="C:\Users\USER\WebstormProjects\ResumeAnalyzer" />
     </key>
   </component>
@@ -94,7 +94,7 @@
       <workItem from="1753718638959" duration="4236000" />
       <workItem from="1753729107021" duration="3000" />
       <workItem from="1753761861723" duration="27366000" />
-      <workItem from="1753800863046" duration="7911000" />
+      <workItem from="1753800863046" duration="9572000" />
     </task>
     <servers />
   </component>
