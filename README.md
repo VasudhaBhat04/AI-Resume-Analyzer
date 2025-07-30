@@ -1,4 +1,4 @@
-# 🌐 RESUMIZ: AI Resume Analyzer
+#  RESUMIZ: AI Resume Analyzer
 
 ### 📌 Tech Stack  
 **Frontend:** React · React Router v7 · TypeScript · Tailwind CSS · Zustand · Vite  
