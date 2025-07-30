@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c4e8365-a7bf-4e8b-b790-b39a93934e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreBadge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreGauge.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ATS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ResumeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.localhost:5173.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/USER/WebstormProjects/ResumeAnalyzer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/USER/WebstormProjects/ResumeAnalyzer/src/main.ts",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\USER\\WebstormProjects\\ResumeAnalyzer\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
-    "ts.external.directory.path": "C:\\Users\\USER\\WebstormProjects\\ResumeAnalyzer\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.localhost:5173.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/WebstormProjects/ResumeAnalyzer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USER/WebstormProjects/ResumeAnalyzer/src/main.ts&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\USER\\WebstormProjects\\ResumeAnalyzer\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\USER\\WebstormProjects\\ResumeAnalyzer\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\WebstormProjects\ResumeAnalyzer" />
@@ -94,7 +93,9 @@
       <workItem from="1753718638959" duration="4236000" />
       <workItem from="1753729107021" duration="3000" />
       <workItem from="1753761861723" duration="27366000" />
-      <workItem from="1753800863046" duration="9572000" />
+      <workItem from="1753800863046" duration="9909000" />
+      <workItem from="1753815371633" duration="59000" />
+      <workItem from="1753847080027" duration="1938000" />
     </task>
     <servers />
   </component>
