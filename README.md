@@ -1,30 +1,49 @@
-RESUMIZ: AI Resume Analyzer
-Tech Stack: React · React Router v7 · TypeScript · Tailwind CSS · Zustand · Vite · Puter.js
-Deployed on: Vercel
-Authentication & Storage: Puter.js
-Architecture: Serverless · Full-stack React
+# 🌐 RESUMIZ: AI Resume Analyzer
 
-Overview
-Resumiz is a modern, responsive web app that helps users assess how well a resume aligns with a job description. Users can upload their resumes, optionally provide job title and description, and instantly receive match scores with feedback.
-Whether you're a recruiter or a job seeker, Resumiz streamlines the process of evaluating resumes for relevance and quality—making job applications and hiring decisions faster and more informed.
+### 📌 Tech Stack  
+**Frontend:** React · React Router v7 · TypeScript · Tailwind CSS · Zustand · Vite  
+**Authentication & Storage:** [Puter.js](https://puter.com)  
+**Deployment:** [Vercel](https://vercel.com)  
+**Architecture:** Serverless · Full-stack React  
 
-Features
-Simple, secure authentication using Puter.js—no backend or API server required.
-Resume uploads directly to the user's Puter cloud storage.
-LLM-based resume matching, powered by Claude and GPT (via Puter SDK integration).
-Modular, reusable UI components built with React and Tailwind CSS.
-Responsive design for seamless use across desktops, tablets, and phones.
-Client-side routing with React Router v7, ready for server-side rendering (SSR).
-Global state management using Zustand with minimal boilerplate.
-Modern dev workflow powered by Vite for fast builds and hot-module reloading.
+---
 
-How It Works
-Users log in with Puter.js (no external sign-up process required).
-Resume files are securely uploaded and stored in the user's cloud.
-Job info can optionally be entered.
-Match score and feedback are returned using integrated language models (LLMs).
-Users can view, update, or delete uploaded resumes.
+## 📖 Overview
 
- Deployment
-The project is deployed on Vercel, offering a globally fast and reliable frontend experience.
-Authentication, storage, and AI features are all handled via Puter.js, keeping the app entirely serverless.
+**Resumiz** is a modern, responsive web app designed to help users evaluate how well a resume aligns with a job description. Users can:
+
+- Upload resumes securely  
+- Optionally provide job title and description  
+- Instantly receive match scores and actionable feedback  
+
+Whether you're a recruiter or a job seeker, Resumiz makes resume evaluation faster and more informed, removing the guesswork from job screening and applications.
+
+---
+
+## 🚀 Features
+
+- ✅ **No Backend Required** – Authentication and storage handled entirely with Puter.js  
+- 📄 **Resume Uploads** – Files stored directly in the user’s personal Puter cloud  
+- 🧠 **LLM-Powered Matching** – Scoring powered by Claude and GPT models via the Puter SDK  
+- 🧩 **Component-Based UI** – Built with reusable React components and styled using Tailwind CSS  
+- 📱 **Fully Responsive** – Works flawlessly across mobile, tablet, and desktop devices  
+- 🔁 **SSR-Ready Routing** – Managed with React Router v7 and support for server-side rendering  
+- 🌐 **State Management** – Lightweight, scalable state control with Zustand  
+- ⚡ **Modern Dev Workflow** – Instant builds and HMR with Vite  
+
+---
+
+## 🔧 How It Works
+
+1. **Login** using Puter.js (no sign-up required)  
+2. **Upload** resumes, which are stored securely in the user’s cloud space  
+3. **Add Job Info** (optional) like company name, job title, and description  
+4. **Get Feedback** – Instantly see match score and feedback using integrated language models  
+5. **Manage Files** – View, update, or delete uploaded resumes easily  
+
+---
+
+## 🌍 Deployment
+
+The app is deployed via **Vercel**, providing blazing-fast performance and global availability.  
+Thanks to **Puter.js**, authentication, storage, and language model integration all work client-side—making **Resumiz fully serverless** and easy to scale.
