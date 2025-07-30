@@ -47,9 +47,9 @@ export function meta({}: Route.MetaArgs) {
         <div className="page-heading py-16">
           <h1>Check Your Application Progress & Resume Quality</h1>
           {!loadingResumes && resumes?.length == 0 ?(
-               <h2>No resumes found.Upload your first resume to get feedback</h2>
+               <h2>No resumes found.Upload your first resume to get feedback.</h2>
           ) : (
-            <h2>Track your applications and let AI rate your resume</h2>
+            <h2>Track your applications and let AI rate your resume.</h2>
 
           )}
 
